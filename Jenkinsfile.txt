@@ -12,6 +12,7 @@ pipeline {
 	echo 'Stage Hello'
         sh 'javac hello.java'
 	sh 'java hello'
+	sh 'python3 hello.py'
       }
     }
   }
