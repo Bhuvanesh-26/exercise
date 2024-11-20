@@ -10,9 +10,8 @@ pipeline {
     stage('hello') {
       steps {
 	echo 'Stage Hello'
-        sh 'javac Test.java'
-	sh 'java Test'
-	sh 'python3 hello.py'
+        sh 'javac hello.java'
+	sh 'java hello'
       }
     }
   }
